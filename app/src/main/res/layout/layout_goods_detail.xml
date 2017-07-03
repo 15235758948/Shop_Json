@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/tv_detail_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:id="@+id/tv_detail_name"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        android:textColor="#3e4346"
+        android:textSize="27dp"
+        tools:text="@string/goods_name_hint" />
+
+    <TextView
+        android:id="@+id/tv_detail_price"
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        tools:text="@string/goods_price_hint" />
+
+    <TextView
+        android:id="@+id/tv_detail_master"
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        android:text="@string/goods_detail_master"
+        android:textColor="#ea1010"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_detail_describe"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_weight="1"
+        android:textColor="#676767"
+        android:textSize="18sp"
+        tools:text="@string/goods_describe" />
+</LinearLayout>

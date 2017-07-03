@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+        <!--<TextView-->
+        <!--android:id="@+id/tv_goods_delete"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="right"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:text="@string/goods_delete"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="20dp"-->
+        <!--android:visibility="gone" />-->
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/viewpager">
+
+    </ListView>
+    <!--<ScrollView-->
+    <!--android:id="@+id/scrollView"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="400dp"-->
+    <!--android:layout_above="@+id/listview"-->
+    <!--android:layout_below="@+id/toolbar"-->
+    <!--android:scrollbars="none">-->
+
+
+    <!--<RelativeLayout-->
+    <!--android:id="@+id/linearLayout"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/listview">-->
+
+    <!--<include-->
+    <!--android:id="@+id/linearLayout2"-->
+    <!--layout="@layout/layout_goods_detail"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content" />-->
+
+    <!--</RelativeLayout>-->
+
+    <!--</ScrollView>-->
+
+
+        <!--<Button-->
+        <!--android:id="@+id/btn_detail_message"-->
+        <!--android:layout_width="0px"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="1"-->
+        <!--android:background="#ea1010"-->
+        <!--android:text="@string/goods_detail_message"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="23dp"-->
+        <!--tools:ignore="ButtonStyle" />-->
+
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv_goods_error"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_alignParentStart="true"-->
+    <!--android:layout_below="@+id/toolbar"-->
+    <!--android:background="#ffffff"-->
+    <!--android:gravity="center"-->
+    <!--android:text="@string/goods_delete_master"-->
+    <!--android:textColor="#3e4346"-->
+    <!--android:textSize="20dp"-->
+    <!--android:visibility="gone" />-->
+
+</RelativeLayout>
